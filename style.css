@@ -1,0 +1,254 @@
+body{
+    font-family: "Barlow Semi Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0px;
+    background-color: hsl(210, 46%, 95%);
+}
+
+@media (max-width: 600px) {
+    body{
+        height: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.testimonial-grid-container{
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .testimonial-grid-container{
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+    }
+}
+
+.avatar{
+    max-width: 1.875rem;
+    border-radius: 15px;
+}
+
+.left-side-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .left-side-container{
+        gap: 13px;
+    }
+}
+
+.container-1-2{
+    max-width: 40.625rem;
+    display: grid;
+    grid-template-columns: 26.25rem 1fr;
+    column-gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .container-1-2{
+        max-width: 21.875rem;
+        display: flex;
+        flex-direction: column;
+        flex: 1 18.75rem;
+        gap: 13px;
+    }
+}
+
+.testimonial-1{
+    max-height: 6.75rem;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: hsl(263, 55%, 52%);
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .testimonial-1{
+        max-width: 14.375rem;
+        min-height: 16.875rem;
+    }
+}
+
+.experience{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(210, 46%, 95%);
+    margin-top: 8px;
+    margin-bottom: 9px;
+    z-index: 1;
+    position: relative;
+}
+
+@media (max-width: 600px) {
+    .experience{
+        font-size: 0.75rem;
+        max-width: 10.875rem;
+    }
+}
+
+.description{
+    font-size: 0.625rem;
+    line-height: 150%;
+    color: hsl(0, 0%, 70%);
+    margin-top: 0px;
+}
+
+@media (max-width: 600px) {
+    .description{
+        font-size: 0.625rem;
+    }
+}
+
+.bg-image{
+    position: absolute;
+    max-width: 5.3125rem;
+    right: 60px;
+    top: 0px;
+}
+
+@media (max-width: 600px) {
+    .bg-image{
+        max-width: 5rem;    
+    }
+}
+
+.testimonial-2{
+    max-height: 11.25rem;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: hsl(217, 19%, 35%);
+}
+
+@media (max-width: 600px) {
+    .testimonial-2{
+        max-width: 14.375rem;
+    }
+}
+
+.container-3-4{
+    max-width: 40.625rem;
+    display: grid;
+    grid-template-columns: 14.375rem 1fr;
+    column-gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .container-3-4{
+        max-width: 21.875rem;
+        display: flex;
+        flex-direction: column;
+        flex: 1 18.75rem;
+        gap: 13px;
+    }
+}
+
+.testimonial-3{
+    max-height: 11.875rem;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 600px) {
+    .testimonial-3{
+        max-width: 14.375rem;
+    }
+}
+
+.experience-light-bg{
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(217, 19%, 35%);
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 600px) {
+    .experience-light-bg{
+        font-size: 0.75rem;
+        font-weight: 600;
+        max-width: 12.5rem;
+    }
+}
+
+.testimonial-4{
+    max-height: 11.875rem;
+    padding: 24px;
+    border-radius: 8px;
+    background-color: hsl(219, 29%, 14%);
+}
+
+@media (max-width: 600px) {
+    .testimonial-4{
+        max-width: 14.375rem;
+        max-height: 17.5rem;
+    }
+}
+
+.container-5{
+    max-width: 13.75rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media (max-width: 600px) {
+    .container-5{
+        max-width: 15.625rem;
+        display: grid;
+        grid-template-columns: 21.875rem;
+    }
+}
+
+.testimonial-5{
+    padding: 24px;
+    border-radius: 8px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 600px) {
+    .testimonial-5{
+        max-width: 14.375rem;
+    }
+}
+
+.name-avatar{
+    display:flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.name{
+    font-size: 0.625rem;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    color: hsl(0, 0%, 81%);
+}
+
+.name-light-bg{
+    font-size: 0.625rem;
+    color: hsl(0, 0%, 50%);margin-bottom: 4px;
+}
+
+.title{
+    font-size: 0.5rem;
+    color: hsl(0, 0%, 50%);
+}
+
+.title-light-bg{
+    font-size: 0.5rem;
+    color: hsl(0, 0%, 81%);
+    margin-top: 0;
+}
+
+.name, .title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
